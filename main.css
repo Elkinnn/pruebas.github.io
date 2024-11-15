@@ -1,0 +1,50 @@
+header {
+    background-color: #1a1a1a;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    transition: color 0.3s, background 0.3s;
+    border-radius: 5px;
+    position: relative;
+}
+
+header nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #FFD700;
+    transition: width 0.3s;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+header nav ul li a:hover::after {
+    width: 100%;
+}
+
+header nav ul li a:hover {
+    color: #FFD700;
+}
