@@ -66,10 +66,8 @@ header nav ul li a:hover::after {
     width: 100%;
 }
 
-header nav ul li a:hover::after {
-    width: 100%;
-}
-
 header nav ul li a:hover {
     color: #FFD700;
 }
+
+
