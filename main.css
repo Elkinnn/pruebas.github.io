@@ -285,3 +285,184 @@ footer p {
     line-height: 1.8;
     margin-bottom: 20px;
 }
+
+.philosophy-section {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.philosophy-section h3 {
+    font-size: 1.4em;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+.philosophy-section p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.objective-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+
+/* Estilo uniforme para los títulos de las tarjetas */
+.objective-card h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Estilo para el texto de las tarjetas */
+.objective-card p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+    text-align: justify;
+}
+
+
+.section h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.tech-intro {
+    text-align: center;
+    font-size: 1.1em;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 2em;
+}
+
+.tech-category {
+    margin-bottom: 3em;
+}
+
+.tech-category h3 {
+    font-size: 1.8em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1em;
+    border-bottom: 2px solid #FFD700;
+    display: inline-block;
+    padding-bottom: 0.5em;
+}
+
+.tech-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #f9f9f9;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 1em auto;
+    max-width: 600px;
+}
+
+.tech-logo {
+    width: 80px;
+    height: 80px;
+}
+
+.tech-description h4 {
+    font-size: 1.4em;
+    color: #333;
+    font-family: 'Georgia', serif;
+}
+
+.tech-description p {
+    text-align: left;
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.experience-intro {
+    font-size: 1.2em;
+    color: #666;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 800px;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.project-details h3 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    font-family: 'Georgia', serif;
+}
+
+.project-details p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.project-link {
+    color: #FFD700;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-bottom: 1em;
+}
+
+.project-link:hover {
+    color: #333;
+}
+
+.project-image {
+    width: 100%;
+    max-width: 450px; /* Ajustado a 450px para que sea un poco más grande */
+    border-radius: 10px;
+    margin-top: 1em;
+}
